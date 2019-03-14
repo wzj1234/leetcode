@@ -1,5 +1,6 @@
 public class reverse_integer {
     public static int reverse(int x){
+//        https://leetcode-cn.com/problems/reverse-integer/
         int res = 0;
         String tempStr = Integer.toString(Math.abs(x));
         String newTempStr = "";
